@@ -1,0 +1,315 @@
+/* Section 1 start */
+
+.residence
+{
+    font-size: 18px;
+    background-color: var(--secondry);
+    width:180px;
+    padding: 16px;
+    border: 2px solid var(--primary);
+    color: var(--primary);
+    text-align: center;
+}
+
+.work_place
+{
+     display: flex;
+     justify-content: space-between;
+     grid-column-gap: 10px;
+     padding: 5% 0% 5%;
+     flex-wrap: wrap;
+     grid-row-gap: 10px;
+     
+}
+.institute
+{
+    text-align: center;
+   padding-bottom: 6px;
+}
+.contain
+{
+    padding-bottom: 5%;
+    background-color: antiquewhite;
+}
+
+@media (max-width:528px)
+{
+     .work_place
+     {
+        justify-content: center;
+     }
+     .home_icon
+     {
+        padding-top: 20px;
+     }
+}
+
+
+
+
+
+/* Section 1 End */
+
+/* Section 2 start */
+
+.element_radiation
+{
+    height: 60vh;
+    background-image: url(https://livesafe.in/wp-content/uploads/2021/07/Services-residence.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.element_radiation_work
+{
+    height: 60vh;
+    background-image: url(	https://livesafe.in/wp-content/uploads/2021/07/Services-workplace.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.element_radiation_institute
+{
+    height: 60vh;
+    background-image: url(https://livesafe.in/wp-content/uploads/2021/07/Services-institutions.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.radiation_emr
+{
+    background-color: antiquewhite;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 10px 5px ;
+    margin: 0px 20px;
+    border-radius: 6px;
+    bottom: 8%;
+    position: absolute;
+}
+.radifix_service
+{
+    background-color: var(--primary);
+    height:60vh;
+    width:100%;
+    padding-left: 20px;
+}
+.element_residence
+{
+     display: flex;
+     flex-direction: column;
+     height: 58vh;
+     justify-content: end;
+     box-sizing: border-box;
+     padding-bottom: 3%;
+}
+.workforce
+{
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.service_work
+{
+    font-size: 32px;
+}
+.service_radifix
+{
+    font-size: 26px;
+}
+
+@media (max-width:1200px)
+{
+    .service_work
+    {
+        font-size: 26px ;
+    }
+    .service_radifix
+    {
+        font-size: 20px;
+    }
+}
+@media (max-width:805px)
+{
+    .service_work
+    {
+        font-size: 22px ;
+    }
+    .service_radifix
+    {
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width:768px)
+{
+    .element_week
+    {
+        display:grid ;
+    }
+    .element_residence
+    {
+        position: relative;
+        left:-8px
+    }
+}
+
+/* Section 2 End
+ bottom:20px;
+    margin:20px 50px;
+    border-radius: 10px;
+    padding: 20px 40px;
+
+
+*/
+
+/*Section 3 start */
+
+.gadget
+{
+    text-align: center;
+    padding: 0px 30px;
+}
+
+.achieved
+{
+    background-color: var(--white);
+    box-shadow: var(--box-shadow);
+    display: flex;
+    justify-content: space-between;
+    padding: 26px 5%;
+    grid-column-gap: 30px;
+    grid-row-gap: 12px;
+}
+
+.describe_title
+{
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 6px;
+}
+
+.number
+{
+    font-size:26px;
+}
+
+@media (max-width:768px)
+{
+    .describe_title
+    {
+        font-size:16px;
+    }
+
+    .number
+    {
+        font-size: 22px;
+    }
+}
+
+@media (max-width:480px)
+{
+    .describe_title
+    {
+        font-size:14px;
+    }
+
+    .number
+    {
+        font-size: 18px;
+    }
+    .achieved
+    {
+        grid-column-gap: 14px;
+       
+    }
+}
+
+
+.audits
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+/* Section 3 end */
+
+/* Section 4 start */
+ .desination
+ {
+    background-color: var(--white);
+    box-shadow: -1px 4px 20px -6px rgb(132, 132 , 137);
+    height:100%;
+    
+ }
+
+ .client_image
+ {
+     width:50%;
+ }
+
+ .descript
+ {
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 10px;
+ }
+
+ .designation
+ {
+    text-align: center;
+    color: var(--primary);
+    font-size: 16px;
+    padding-top: 6px;
+ }
+
+
+
+/* Section 4 end */
+
+/* Section 5 Start */
+
+ .emf_image
+ {
+    width:80%;
+    height: auto;
+    object-fit:contain;
+ }
+
+ .name_title
+ {
+    font-size: 28px;
+    color: var(--primary);
+    padding-bottom: 10px;
+ }
+
+ .coating:hover
+ {
+        background-color: antiquewhite;
+        height:100%;
+ }
+ @media (max-width:768px)
+ {
+    .name_title{
+        font-size: 26px;
+    }
+ }
+
+/* Section 5 End */
+
+/* Section 6 Start */
+ .studies
+ {
+    background-color: var(--primary);
+    line-height: 22px;
+    height:96%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 0px rgb(132 132 137);
+ }
+
+/* Section 6 End */

@@ -1,0 +1,21 @@
+:root {
+  --primary:rgb(250, 130, 26) !important;
+  --secondry:#2d2d2d !important;
+  --white:#fff;
+  --box-shadow: -1px 4px 20px -6px rgb(132 132 137);
+  --black:#4d4d4d !important;
+}
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+   background-color: #fff;
+}
+
+code {
+  font-family: 'Montserrat', sans-serif;
+}
+
+

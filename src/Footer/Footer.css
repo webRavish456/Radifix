@@ -1,0 +1,30 @@
+.footer_title
+{
+    color:var(--secondry);
+    text-decoration: none;
+    line-height: 24px;
+}
+.footer_pagargraph
+{
+    padding: 8px 0px 8px;
+}
+.footer_address
+{
+    line-height: 24px;
+    padding: 8px 0px 6px;
+}
+.phone_icon
+{
+    display: flex;
+    color:var(--secondry);
+    text-decoration: none;
+    line-height: 22px;
+    padding-top: 6px;
+    grid-column-gap: 10px;
+}
+.contact_radifix
+{
+    color:var(--secondry);
+    text-decoration: none;
+    font-size: 16px;
+}
